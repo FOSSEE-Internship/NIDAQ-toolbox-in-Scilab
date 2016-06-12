@@ -1,0 +1,121 @@
+                   
+#Accessing NIDAQ card through Scilab NIDAQ toolbox
+
+##Requirements
+
+- DAQ card: USB-6008
+- Operating System: Windows 8
+- Scilab version: Scilab 5.5.2
+- Driver used: NI-DAQmx 9.4
+
+##Installing the driver and accessory software
+### NIDAQmx 9.4
+#### Before installing
+- For development purposes, required RAM is at least 1GB, and the processor should be Pentium IV or later. 	
+- For deployment, the RAM required is 256 MB, and processor should be Pentium III/Celeron 600 MHz or equivalent.
+####Installation
+- Go to [NIDAQ-mx 9.4 Download page](http://www.ni.com/download/ni-daqmx-9.4/2604/en/)  and choose an option for downloading NI-DAQmx 9.4 for Windows. The file is about 1.2 GB.
+- The executable file is run and the installer opens automatically. If the NI-DAQmx installer does not open automatically, select Start»Run. Enter x:\autorun.exe , where x is the path. Complete the installation.
+
+***
+
+
+###Scilab 5.5.2
+####Before You Install
+Get the installation file from [this link.](http://www.scilab.org/download/5.5.2/scilab-5.5.2.exe) 
+To run the installer, you need admin rights as the installer modifies system registry during the installation.
+
+Double click on the file scilab-5.5.2.exe when the download is completed.
+Select language used by Setup program.
+
+![](Pictures/1.jpg) 
+
+Select a supported language from the drop down list.
+Click on "OK" to continue.
+
+####Welcome:
+
+![](Pictures/2.jpg) 
+
+Click on "Next" to continue.
+
+####License Agreement
+
+![](Pictures/3.jpg) 
+
+Select "I accept the agreement" and click on "Next" to continue.
+
+####Select Destination Location
+
+![](Pictures/4.jpg) 
+
+By default, destination location is C:\Program Files\scilab-5.5.2. Click on "Next" to continue.
+
+####Select Components
+
+![](Pictures/5.jpg)
+
+#####Three installation mode:
+
+- Full Installation (Default),
+- Installation recommended,
+- Custom Installation
+In this case, you can choose to enable/disable some modules. If you choose to not enable a module, functions will be not installed.
+
+####Select Start Menu Folder
+
+![](Pictures/6.jpg)
+
+Click on "Next" to continue.
+
+####Select Additional Tasks (Files associations)
+
+![](Pictures/7.jpg)
+
+Click on "Next" to continue.
+
+####Ready to Install
+
+![](Pictures/8.jpg)
+
+Click on "Install" to continue.
+
+![](Pictures/9.jpg)
+
+####Installation finished
+
+![](Pictures/10.jpg)
+
+Click on "Finish" to continue.
+
+####Finish setup and launch Scilab.
+
+![](Pictures/11.jpg)
+
+***
+
+###Installing NIDAQ toolbox
+
+- Open Scilab.
+- In the console window, type:
+>atomsInstall('NIDAQ')
+- The ATOMS installer installs the NIDAQ toolbox.
+-Restart Scilab.
+-NIDAQ toolbox loads at start-up automatically.
+- If no NI devices are connected, the console outputs “No devices detected”. 
+- If devices are connected, go to NI-MAX and check the available devices with their respective names. The corresponding device name is used in the Scilab code.
+
+***
+
+##### Once the device is detected in Scilab, we can write and execute code involving DAQ interface.
+
+ 
+
+
+
+
+
+
+
+
+
