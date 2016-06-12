@@ -28,32 +28,32 @@ To run the installer, you need admin rights as the installer modifies system reg
 Double click on the file scilab-5.5.2.exe when the download is completed.
 Select language used by Setup program.
 
-![](Pictures/1.jpg) 
+![](1.jpg) 
 
 Select a supported language from the drop down list.
 Click on "OK" to continue.
 
 ####Welcome:
 
-![](Pictures/2.jpg) 
+![](2.jpg) 
 
 Click on "Next" to continue.
 
 ####License Agreement
 
-![](Pictures/3.jpg) 
+![](3.jpg) 
 
 Select "I accept the agreement" and click on "Next" to continue.
 
 ####Select Destination Location
 
-![](Pictures/4.jpg) 
+![](4.jpg) 
 
 By default, destination location is C:\Program Files\scilab-5.5.2. Click on "Next" to continue.
 
 ####Select Components
 
-![](Pictures/5.jpg)
+![](5.jpg)
 
 #####Three installation mode:
 
@@ -64,33 +64,33 @@ In this case, you can choose to enable/disable some modules. If you choose to no
 
 ####Select Start Menu Folder
 
-![](Pictures/6.jpg)
+![](6.jpg)
 
 Click on "Next" to continue.
 
 ####Select Additional Tasks (Files associations)
 
-![](Pictures/7.jpg)
+![](7.jpg)
 
 Click on "Next" to continue.
 
 ####Ready to Install
 
-![](Pictures/8.jpg)
+![](8.jpg)
 
 Click on "Install" to continue.
 
-![](Pictures/9.jpg)
+![](9.jpg)
 
 ####Installation finished
 
-![](Pictures/10.jpg)
+![](10.jpg)
 
 Click on "Finish" to continue.
 
 ####Finish setup and launch Scilab.
 
-![](Pictures/11.jpg)
+![](11.jpg)
 
 ***
 
