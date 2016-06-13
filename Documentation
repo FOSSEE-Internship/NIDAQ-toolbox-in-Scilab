@@ -18,6 +18,518 @@
 - The executable file is run and the installer opens automatically. If the NI-DAQmx installer does not open automatically, select Start»Run. Enter x:\autorun.exe , where x is the path. Complete the installation.
 
 ***
+### Cards that can be accessed:
+
+
+    CAL-4353
+    DAQCard-6024E
+    DAQCard-6036E
+    DAQCard-6062E
+    DAQCard-6715
+    DAQCard-DIO-24
+    DAQPad-6015 for USB w/BNC Term
+    DAQPad-6015 for USB w/Mass Term
+    DAQPad-6015 for USB w/Screw Term
+    DAQPad-6016 for USB w/Screw Term
+    ENET-9205
+    ENET-9206
+    ENET-9211
+    ENET-9213
+    ENET-9215
+    ENET-9215 BNC
+    ENET-9219
+    ENET-9234
+    ENET-9237
+    ENET-9421
+    ENET-9421 DSUB
+    ENET-9472
+    ENET-9472 DSUB
+    ENET-9481
+    NI 2812
+    NI 2813
+    NI 2814
+    NI 2817
+    NI 9201
+    NI 9201 D-Sub
+    NI 9203
+    NI 9205
+    NI 9206
+    NI 9207
+    NI 9208
+    NI 9211
+    NI 9214
+    NI 9215
+    NI 9215 BNC
+    NI 9217
+    NI 9219
+    NI 9219
+    NI 9219 LEMO
+    NI 9221
+    NI 9221 D-Sub
+    NI 9221 D-Sub
+    NI 9222
+    NI 9223
+    NI 9225
+    NI 9227
+    NI 9229
+    NI 9229
+    NI 9229 BNC
+    NI 9229 BNC
+    NI 9229 BNC
+    NI 9232
+    NI 9233
+    NI 9233
+    NI 9234
+    NI 9235
+    NI 9236
+    NI 9237
+    NI 9237 with D-Sub
+    NI 9239
+    NI 9239
+    NI 9239 BNC
+    NI 9239 BNC
+    NI 9263
+    NI 9263 BNC
+    NI 9264
+    NI 9264
+    NI 9265
+    NI 9265
+    NI 9269
+    NI 9375
+    NI 9401
+    NI 9403
+    NI 9411
+    NI 9421
+    NI 9421 D-Sub
+    NI 9422
+    NI 9423
+    NI 9425
+    NI 9426
+    NI 9435
+    NI 9472
+    NI 9472 D-Sub
+    NI 9474
+    NI 9475
+    NI 9476
+    NI 9477
+    NI 9478
+    NI 9481
+    NI 9485
+    NI ELVIS II
+    NI PCIe-6251
+    NI PCIe-6259
+    NI PCIe-6535
+    NI PCIe-6536
+    NI PCIe-6537
+    NI PXIe-4496
+    NI PXIe-4498
+    NI PXIe-6251
+    NI PXIe-6259
+    NI PXIe-6535
+    NI PXIe-6536
+    NI PXIe-6537
+    NI USB-6341
+    NI USB-6343
+    NI USB-6351
+    NI USB-6353
+    NI USB-6356 (32MS)
+    NI USB-6356 (64MS)
+    NI USB-6361
+    NI USB-6363
+    NI USB-6366 (32MS)
+    NI USB-6366 (64MS)
+    NI USB-TC01
+    PCI-4021
+    PCI-4461
+    PCI-4462
+    PCI-4472
+    PCI-4472B
+    PCI-4474
+    PCI-4474
+    PCI-6010
+    PCI-6011E
+    PCI-6013
+    PCI-6014
+    PCI-6023E
+    PCI-6024E
+    PCI-6025E
+    PCI-6030E
+    PCI-6031E
+    PCI-6031E
+    PCI-6031E
+    PCI-6032E
+    PCI-6032E
+    PCI-6033E
+    PCI-6033E
+    PCI-6034E
+    PCI-6035E
+    PCI-6036E
+    PCI-6040E (PCI-MIO-16E-4)
+    PCI-6052E
+    PCI-6070E
+    PCI-6070E
+    PCI-6071E
+    PCI-6071E
+    PCI-6071E
+    PCI-6110
+    PCI-6111
+    PCI-6111
+    PCI-6115
+    PCI-6115
+    PCI-6120
+    PCI-6122
+    PCI-6123
+    PCI-6132
+    PCI-6133
+    PCI-6143
+    PCI-6154
+    PCI-6220
+    PCI-6221
+    PCI-6221
+    PCI-6221 (37-Pin)
+    PCI-6224
+    PCI-6225
+    PCI-6229
+    PCI-6230
+    PCI-6232
+    PCI-6233
+    PCI-6236
+    PCI-6238
+    PCI-6239
+    PCI-6250
+    PCI-6251
+    PCI-6251
+    PCI-6254
+    PCI-6255
+    PCI-6259
+    PCI-6280
+    PCI-6281
+    PCI-6281
+    PCI-6284
+    PCI-6289
+    PCI-6503
+    PCI-6509
+    PCI-6510
+    PCI-6511
+    PCI-6512
+    PCI-6513
+    PCI-6514
+    PCI-6515
+    PCI-6516
+    PCI-6517
+    PCI-6518
+    PCI-6519
+    PCI-6520
+    PCI-6521
+    PCI-6527
+    PCI-6527
+    PCI-6528
+    PCI-6533
+    PCI-6533
+    PCI-6533
+    PCI-6534
+    PCI-6534
+    PCI-6601
+    PCI-6602
+    PCI-6602
+    PCI-6602
+    PCI-6624
+    PCI-6703
+    PCI-6704
+    PCI-6711
+    PCI-6713
+    PCI-6722
+    PCI-6723
+    PCI-6731
+    PCI-6733
+    PCI-DIO-96
+    PCIe-6320
+    PCIe-6321
+    PCIe-6323
+    PCIe-6341
+    PCIe-6343
+    PCIe-6351
+    PCIe-6353
+    PCIe-6361
+    PCIe-6363
+    PXI-1010
+    PXI-1011
+    PXI-2501
+    PXI-2503
+    PXI-2510
+    PXI-2512
+    PXI-2514
+    PXI-2515
+    PXI-2527
+    PXI-2529
+    PXI-2530
+    PXI-2531
+    PXI-2532
+    PXI-2543
+    PXI-2545
+    PXI-2546
+    PXI-2547
+    PXI-2548
+    PXI-2549
+    PXI-2554
+    PXI-2555
+    PXI-2556
+    PXI-2557
+    PXI-2558
+    PXI-2559
+    PXI-2564
+    PXI-2565
+    PXI-2566
+    PXI-2567
+    PXI-2568
+    PXI-2569
+    PXI-2570
+    PXI-2571
+    PXI-2575
+    PXI-2576
+    PXI-2584
+    PXI-2585
+    PXI-2586
+    PXI-2590
+    PXI-2591
+    PXI-2593
+    PXI-2594
+    PXI-2595
+    PXI-2596
+    PXI-2597
+    PXI-2598
+    PXI-2599
+    PXI-2800
+    PXI-4021
+    PXI-4200
+    PXI-4204
+    PXI-4220
+    PXI-4224
+    PXI-4461
+    PXI-4461
+    PXI-4462
+    PXI-4472
+    PXI-4472
+    PXI-4472B
+    PXI-4474
+    PXI-4495
+    PXI-4496
+    PXI-4498
+    PXI-6025E
+    PXI-6030E
+    PXI-6031E
+    PXI-6040E
+    PXI-6052E
+    PXI-6070E
+    PXI-6071E
+    PXI-6115
+    PXI-6120
+    PXI-6122
+    PXI-6123
+    PXI-6132
+    PXI-6133
+    PXI-6143
+    PXI-6220
+    PXI-6221
+    PXI-6224
+    PXI-6225
+    PXI-6229
+    PXI-6230
+    PXI-6232
+    PXI-6233
+    PXI-6236
+    PXI-6238
+    PXI-6239
+    PXI-6250
+    PXI-6251
+    PXI-6254
+    PXI-6255
+    PXI-6259
+    PXI-6280
+    PXI-6281
+    PXI-6284
+    PXI-6289
+    PXI-6508
+    PXI-6509
+    PXI-6511
+    PXI-6512
+    PXI-6513
+    PXI-6514
+    PXI-6515
+    PXI-6521
+    PXI-6527
+    PXI-6527
+    PXI-6528
+    PXI-6529
+    PXI-6533
+    PXI-6534
+    PXI-6602
+    PXI-6602
+    PXI-6608
+    PXI-6624
+    PXI-6704
+    PXI-6711
+    PXI-6713
+    PXI-6722
+    PXI-6723
+    PXI-6733
+    PXIe-2512
+    PXIe-2514
+    PXIe-2515
+    PXIe-2531
+    PXIe-2543
+    PXIe-4300
+    PXIe-4330
+    PXIe-4331
+    PXIe-4353
+    PXIe-4492
+    PXIe-4497
+    PXIe-4499
+    PXIe-6124
+    PXIe-6341
+    PXIe-6356
+    PXIe-6358
+    PXIe-6361
+    PXIe-6363
+    PXIe-6366
+    PXIe-6368
+    PXIe-6376
+    PXIe-6378
+    SC-2350
+    SCXI-1000
+    SCXI-1000DC
+    SCXI-1001
+    SCXI-1100
+    SCXI-1102
+    SCXI-1102B
+    SCXI-1102C
+    SCXI-1104C
+    SCXI-1104C
+    SCXI-1112
+    SCXI-1120
+    SCXI-1120D
+    SCXI-1121
+    SCXI-1122
+    SCXI-1124
+    SCXI-1125
+    SCXI-1126
+    SCXI-1127
+    SCXI-1128
+    SCXI-1129
+    SCXI-1130
+    SCXI-1140
+    SCXI-1141
+    SCXI-1142
+    SCXI-1143
+    SCXI-1160
+    SCXI-1161
+    SCXI-1162
+    SCXI-1162HV
+    SCXI-1163
+    SCXI-1163R
+    SCXI-1166
+    SCXI-1167
+    SCXI-1169
+    SCXI-1175
+    SCXI-1190
+    SCXI-1191
+    SCXI-1192
+    SCXI-1193
+    SCXI-1194
+    SCXI-1195
+    SCXI-1314
+    SCXI-1314T
+    SCXI-1502
+    SCXI-1503
+    SCXI-1520
+    SCXI-1521
+    SCXI-1521B
+    SCXI-1530
+    SCXI-1531
+    SCXI-1540
+    SCXI-1581
+    SCXI-1600
+    SCXI-1600
+    USB-4431
+    USB-4432
+    USB-6008
+    USB-6008
+    USB-6008
+    USB-6009
+    USB-6009
+    USB-6009
+    USB-6210
+    USB-6211
+    USB-6212
+    USB-6212 BNC
+    USB-6212 Mass Term
+    USB-6215
+    USB-6216
+    USB-6216 BNC
+    USB-6216 Mass Term
+    USB-6218
+    USB-6218 BNC
+    USB-6221
+    USB-6221 BNC
+    USB-6225
+    USB-6225 Mass Term
+    USB-6229
+    USB-6229
+    USB-6229 BNC
+    USB-6251
+    USB-6251 BNC
+    USB-6251 Mass Term
+    USB-6255
+    USB-6255 Mass Term
+    USB-6259
+    USB-6259
+    USB-6259
+    USB-6259 BNC
+    USB-6259 Mass Term
+    USB-6281
+    USB-6281 Mass Term
+    USB-6289
+    USB-6289 Mass Term
+    USB-6501
+    USB-6509
+    USB-6509
+    USB-6525
+    USB-9201
+    USB-9201 D-Sub
+    USB-9211A
+    USB-9211A
+    USB-9213
+    USB-9215A
+    USB-9215A
+    USB-9221
+    USB-9237
+    USB-9421
+    USB-9421 D-Sub
+    USB-9472
+    USB-9472 D-Sub
+    USB-9481
+    WLS-9205
+    WLS-9206
+    WLS-9211
+    WLS-9213
+    WLS-9215
+    WLS-9215 BNC
+    WLS-9219
+    WLS-9234
+    WLS-9421
+    WLS-9421 DSUB
+    WLS-9472
+    WLS-9472 DSUB
+    WLS-9481
+    cDAQ-9171
+    cDAQ-9172
+    cDAQ-9174
+    cDAQ-9178
+    cDAQ-9181
+    cDAQ-9188
+    cDAQ-9191
+
+***
 
 
 ###Scilab 5.5.2
